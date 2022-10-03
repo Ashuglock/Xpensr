@@ -37,7 +37,7 @@ const Addform = () => {
           }
           const handleSubmit = () => {
                     if (title === '' || amount === '' || !category) {
-                              const notify = () => toast("Please enter valid data");
+                              const notify = () => toast("Enter valid data");
                               notify();
                               return;
                     }
