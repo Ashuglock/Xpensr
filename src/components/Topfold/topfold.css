@@ -1,0 +1,66 @@
+.topfold{
+          margin: 6px 12px;
+          padding: 12px 0 ;
+}
+
+.home-topfold{
+          display: flex;
+          flex: 1;
+          justify-content: space-between;
+          align-items: center;
+}
+
+.search-bar{
+          display: flex;
+          align-items: center;
+          width: 50%;
+          background-color: white;
+          border-radius: 12px;
+
+}
+.search-bar input{
+          width: 80%;
+          outline: none;
+          padding: 8px 0px ;
+          border: none;
+          margin-left: 6px;
+          background-color: white;
+}
+.search-bar i{
+          display: flex;
+          align-items: center;
+          margin-left: 6px;
+}
+
+.add-btn{
+                    font-size: 20px;
+                    align-items: center;
+                    display: flex;
+                    border: 1px solid black;
+                    border-radius: 6px;
+                    padding: 0px 8px ; 
+                    cursor: pointer;
+}
+.add-btn i{
+          display: flex;
+          margin-right: 4px;
+          align-items: center;
+}
+.add-topfold{
+          display: flex;
+          justify-content: space-between;
+          flex: 1;
+          align-items: center;
+}
+.add-topfold-btn{
+          font-size: 18px;
+                    align-items: center;
+                    display: flex;
+                    cursor: pointer;
+
+}
+.add-topfold-btn i{
+          margin-right: 4px;
+          display: flex;
+          align-items: center;
+}

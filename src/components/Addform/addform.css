@@ -1,0 +1,115 @@
+*{
+          box-sizing: border-box;
+          padding: 0px;
+          margin: 0px;
+}
+
+.add-form{
+          background: #71ccca;
+          box-shadow: 20px 20px 60px #60adac, -20px -20px 60px #82ebe8;
+          margin: 6px 12px;
+          padding:24px;
+          display: flex;
+          flex-direction: column;
+          flex: 1;
+          min-height: 70vh;
+}
+.form-item{
+          margin: 12px 0px;
+          width : 70%;
+          padding: 4px;
+          border-radius: 6px;
+          background-color: white;
+          
+}
+
+.label{
+          background-color: lightgray;
+          padding:2px 12px;
+          border-radius: 4px 0px 0px 4px;
+}
+
+.form-item input{
+          font-size: 16px;
+          border: none;
+          margin-left: 4px;
+          outline: none;
+          width: 80%;
+}
+.category-container-parent{
+          display: flex;
+          flex-direction: column;
+          flex: 1;
+
+}
+.category{
+          position: relative;
+          width: 40%;
+}
+.category-dropdown{
+          display: flex;
+          justify-content: space-between;
+          background-color: white;
+          align-items: center;
+          margin: 12px 0px;
+          border-radius: 6px;
+          padding: 4px;
+}
+
+.category-dropdown i{
+          display: flex;
+          align-items: center;
+          margin-right: 6px;
+}
+
+.category-container{
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          background: white;
+
+}
+.category-item{
+          width: 98%;
+          display: flex;
+          justify-content: space-between;
+          padding: 8px;
+          cursor: pointer;
+}
+.category-item img{
+          height: 32px;
+          margin-right: 20px;
+}
+.form-add-btn{
+          display: flex;
+          justify-content: flex-end;
+}
+
+.form-add-btn div{
+          display: flex;
+          align-items: center;
+          border: 1px solid black;
+          border-radius: 6px;
+          padding: 2px 8px;
+          cursor: pointer;
+}
+.fi-rr-paper-plane{
+          display: flex;
+          align-items: center;
+          margin-left: 4px;
+}
+
+@media only screen and (max-width: 1024px){
+          .form{
+                    width: 100%;
+          }
+          .form-item input{
+                    width: 80%;
+          }
+          .amount-input{
+                    width: 50% !important;
+          }
+          .category{
+                    width: 70%;
+          }
+}

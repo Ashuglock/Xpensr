@@ -1,0 +1,37 @@
+*{
+          padding: 0px;
+          margin: 0px;
+          box-sizing: border-box;
+}
+
+.expense-list{
+          margin: 6px 12px;
+          display: flex;
+          flex-direction: column;
+          flex: 1;
+}
+
+.empty-state{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+}
+.empty-image{
+          height: 550px;
+          width: 70%;
+}
+@media only screen and (max-width : 1024px){
+          .empty-image{
+                    height: 440px;
+                    width: 70%;
+
+          }
+}
+@media only screen and (max-width : 512px){
+          .empty-image{
+                    height: 330px;
+                    width: 70%;
+
+          }
+}

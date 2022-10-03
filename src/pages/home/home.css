@@ -1,0 +1,24 @@
+*{
+          padding: 0px;
+          margin: 0px;
+          box-sizing: border-box;
+}
+.home{
+          width: 50%;
+          margin: auto;
+}
+
+@media only screen and (max-width : 1024px){
+          .home{
+                    width: 90%;
+                    
+          }
+         
+}
+@media only screen and (max-width : 512px){
+          .home{
+                    width: 100%;
+                    
+          }
+         
+}
